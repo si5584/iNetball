@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F42E48F41CFF7AF800E0F025 /* GameTaggingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E48F31CFF7AF800E0F025 /* GameTaggingVC.swift */; };
 		F4CF77091CFF2971005C8778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF77081CFF2971005C8778 /* AppDelegate.swift */; };
-		F4CF770B1CFF2971005C8778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CF770A1CFF2971005C8778 /* ViewController.swift */; };
 		F4CF770E1CFF2971005C8778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CF770C1CFF2971005C8778 /* Main.storyboard */; };
 		F4CF77111CFF2971005C8778 /* iNetball.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4CF770F1CFF2971005C8778 /* iNetball.xcdatamodeld */; };
 		F4CF77131CFF2972005C8778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CF77121CFF2972005C8778 /* Assets.xcassets */; };
@@ -16,9 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F42E48F31CFF7AF800E0F025 /* GameTaggingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTaggingVC.swift; sourceTree = "<group>"; };
 		F4CF77051CFF2971005C8778 /* iNetball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNetball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CF77081CFF2971005C8778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4CF770A1CFF2971005C8778 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4CF770D1CFF2971005C8778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4CF77101CFF2971005C8778 /* iNetball.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iNetball.xcdatamodel; sourceTree = "<group>"; };
 		F4CF77121CFF2972005C8778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				F4CF77081CFF2971005C8778 /* AppDelegate.swift */,
-				F4CF770A1CFF2971005C8778 /* ViewController.swift */,
 				F4CF770C1CFF2971005C8778 /* Main.storyboard */,
 				F4CF77121CFF2972005C8778 /* Assets.xcassets */,
 				F4CF77141CFF2972005C8778 /* LaunchScreen.storyboard */,
 				F4CF77171CFF2972005C8778 /* Info.plist */,
 				F4CF770F1CFF2971005C8778 /* iNetball.xcdatamodeld */,
+				F42E48F31CFF7AF800E0F025 /* GameTaggingVC.swift */,
 			);
 			path = iNetball;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4CF77111CFF2971005C8778 /* iNetball.xcdatamodeld in Sources */,
-				F4CF770B1CFF2971005C8778 /* ViewController.swift in Sources */,
+				F42E48F41CFF7AF800E0F025 /* GameTaggingVC.swift in Sources */,
 				F4CF77091CFF2971005C8778 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +259,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haloApps.iNetball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -270,6 +271,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haloApps.iNetball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -292,6 +294,7 @@
 				F4CF771C1CFF2972005C8778 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
